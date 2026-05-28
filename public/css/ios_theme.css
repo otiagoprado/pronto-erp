@@ -1,32 +1,36 @@
-/* Customização Visual Inspirada no iOS */
+/* Customização Visual Nativa para o ERP Pronto */
 
 :root {
     --border-radius-md: 16px !important;
     --border-radius-lg: 24px !important;
     --font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
-    --primary-color: #007aff !important; /* Azul clássico da Apple */
+    --primary-color: #007aff !important; /* Azul clássico iOS */
 }
 
-body {
-    font-family: var(--font-stack);
-    background-color: #f5f5f7 !important; /* Cinza claro característico */
+/* Aplicando fontes e fundo cinza claro */
+body, .page-body, .desk-container, .layout-main-section {
+    font-family: var(--font-stack) !important;
+    background-color: #f5f5f7 !important; 
 }
 
-.navbar {
+/* Efeito de vidro fosco (glassmorphism) na barra superior */
+.navbar, .header-navbar, .page-head {
     background: rgba(255, 255, 255, 0.7) !important;
     backdrop-filter: blur(20px) saturate(180%) !important;
     -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
 }
 
-.desk-sidebar, .page-container, .widget {
+/* Estilizando a barra lateral, cards do Workspace e tabelas */
+.desk-sidebar, .page-container, .widget, .card, .layout-side-section, .form-section {
     border-radius: var(--border-radius-lg) !important;
     border: 1px solid rgba(255, 255, 255, 0.4) !important;
     background: rgba(255, 255, 255, 0.6) !important;
     backdrop-filter: blur(10px) !important;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.02) !important;
 }
 
-.navbar .navbar-search, .btn-help {
+/* Ajustando inputs, botões e barra de pesquisa */
+.navbar .navbar-search, .form-control, .btn, .input-with-feedback, .standard-filter-section {
     border-radius: var(--border-radius-md) !important;
 }
