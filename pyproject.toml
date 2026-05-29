@@ -1,6 +1,7 @@
 [project]
 name = "pronto_erp"
 version = "0.0.1"
+description = "Tema customizado e otimizacoes para o ERP Pronto"
 dependencies = [
     "frappe"
 ]
