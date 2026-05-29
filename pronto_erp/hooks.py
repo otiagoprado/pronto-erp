@@ -5,4 +5,4 @@ app_description = "Tema customizado e otimizações para o ERP Pronto"
 app_email = "otiagoprado@gmail.com"
 app_license = "mit"
 
-app_include_css = ["/assets/pronto_erp/css/ios_theme.css"]
+app_include_css = ["/pronto_erp/public/css/ios_theme.css"]
