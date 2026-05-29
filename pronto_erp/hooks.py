@@ -6,4 +6,4 @@ app_email = "otiagoprado@gmail.com"
 app_license = "mit"
 
 # Injeção Nativa de CSS com colchetes (Lista Python)
-app_include_css = ["/assets/pronto_erp/css/ios_theme.css"]
+app_include_css = "/assets/pronto_erp/css/ios_theme.css"
