@@ -1,10 +1,6 @@
 [project]
 name = "pronto_erp"
 version = "0.0.1"
-description = "Customização visual e otimizações para o ERP Pronto"
-authors = [
-    { name = "Tiago Prado", email = "otiagoprado@gmail.com" }
-]
 dependencies = [
     "frappe"
 ]
@@ -12,6 +8,3 @@ dependencies = [
 [build-system]
 requires = ["flit_core >=3.4,<4"]
 build-backend = "flit_core.buildapi"
-
-[tool.bench.frappe-dependencies]
-frappe = ">=15.0.0,<16.0.0"
